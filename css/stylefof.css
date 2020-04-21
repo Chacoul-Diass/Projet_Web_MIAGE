@@ -1,0 +1,43 @@
+/*Reset CSS*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif;
+}
+
+.lecture_video
+{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.description
+{
+	margin-left: 30px;
+	text-align: justify;
+}
+p
+{
+	text-align: justify-all;
+}
+ul
+{
+	list-style-type: none;
+}
+ul li
+{
+	margin-bottom: 5px;
+}
+.rep_video
+{
+	border-left: 2px rgba(0,0,0,0.5) solid;
+	float: right;
+	/*margin-right:400px;*/
+	padding: 30px;
+}
+.description_video
+{
+	float: right;
+	text-align: center;
+	padding: 20px;
+	padding-left: 10px;
+}

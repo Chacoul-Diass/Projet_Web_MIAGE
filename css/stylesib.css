@@ -1,0 +1,290 @@
+
+
+a{
+  text-decoration: none;
+  color: #3f4954;
+} 
+.flex-row{
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  color: #3f4954;
+}
+
+ul{
+
+  list-style-type: none;
+}
+h1{
+  display: flex;
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
+h2{
+
+  font-family: var(--Lexend);
+}
+h3{
+  font-family: var(--Abel);
+  font-size: 1.8rem;
+}
+p{
+  font-family:  Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  float: left;
+}
+button .btn{
+  border: none;
+  border-radius: 2rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+span{
+  
+  font-family: var(--Abel);
+}
+
+.container{
+  margin: 0 5vw;
+}
+/* nav*/
+
+nav {
+  padding: 0 10px;
+  border: 1px solid #0ba8d8;
+  box-shadow: 0px 34px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav .nav-items{
+  display: flex;
+  left: 60%;
+  top: 10%;
+  position: absolute;
+  float: none;
+  transform: translate(-100%,-100%);
+}
+
+.nav .nav-items .nav-link{
+
+  padding: 1.6rem 1rem;
+  margin: 10px 20px 20px 20px;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: var(--Abel);
+  font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+
+  background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+
+  color: var(--white);
+}
+.nav .nav-brand a{
+  font-size: 2.6rem;
+  padding: 1rem 0;
+  text-decoration: none;
+  display: block;
+  font-family: var(--Lexend);
+}
+
+.nav .social{
+  padding: 1rem 0;
+}
+
+.nav .social i{
+  padding: 0.2rem;
+}
+
+.nav .social i:hover {
+  color: #0ba8d8;
+}
+.nav .toggle-collapse{
+  display: initial;
+}
+
+.nav .nav-droite a{
+  left: 210%;
+  top: 70%;
+  position: absolute;
+  float: none;
+  transform: translate(-100%,-100%);
+  font-size: 20px;
+  display: flex;
+}
+
+nav .nav-brand .text-gray {
+  padding-left: 25px;
+}
+
+nav .nav-droite .btn {
+  padding: 10px;
+}
+nav .nav-droite .connex {
+  border: 1px solid rgb(24, 178, 216);
+  color: rgb(24, 178, 216);
+}
+nav .nav-droite .inscri{
+  background: rgb(24, 178, 216);
+  margin-left: 130px;
+  color: white;
+}
+
+/* menu-main  */
+
+main .site-title{
+
+  background: url('../images/10.jpg');
+  background-size: cover;
+  margin-top: 20px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  background-position: top;
+}
+
+main .site-title .site-background{
+  padding-top: 10rem;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+
+main .site-title h1,h3{
+  margin: 0.3rem;
+}
+main .site-title .btn{
+  margin: 1.8rem;
+  background: var(--sky);
+}
+main .site-title .btn:hover{
+  background: transparent;
+  border: 2px solid var(--white);
+
+}
+
+/*---------xx-----Site Title-------------xx------*/
+
+
+main .blog{
+  background: url('../assets/Abract01.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+  background-size: 68%;
+}
+main .blog .blog-post{
+  padding-top: 6rem;
+}
+main .blog-post .blog-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+main .blog-content .blog-title{
+  padding: 2rem 0;
+}
+main .blog-content .btn-blog{
+  padding: .5rem 2rem;
+  background: var(--sky);
+  margin: .5rem;
+}
+main .blog-content span{
+  display: block;
+}
+section .container .owl-nav{
+  position: absolute;
+  top: 0%;
+  margin: 0 auto;
+  width: 100%;
+}
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+  color: var(--text-gray);
+  background: transparent;
+  font-size: 1.2rem;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+
+  background: transparent;
+  color: var(--midnight);
+}
+.owl-theme .owl-nav [class*='owl-']{
+  outline: none;
+}
+main .site-main{
+  background: rgba(219, 214, 214, 0.904);
+  height: auto;
+  margin-top: 50px;
+}
+main .site-main h1{
+  color: #0ba8d8;
+  display: flex;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+.main-text{
+  display: flex;
+  padding: 10px;
+}
+.video{
+  margin-right: 50px;
+}
+.text{
+  margin-right: 40px;
+}
+mark{
+  color: white;
+  background-color: #0b2ad8;
+}
+main .site-temoin .temoingnage{
+  display: flex;
+  padding: 20px;
+  margin-left: 20px;
+}
+main .site-temoin .temoignage .photo-temoins{
+  border: #0ba8d8 solid 4px;
+  height: 100%;
+  width: 100%;
+  float:left;
+  margin-right: 15px;
+
+}
+main .site-temoin .temoignage .temoins-text{
+  display: flex;
+  margin-right:30px;  
+
+}
+main .site-temoin .temoins-text h2{
+  color: #0ba8d8;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 70px;
+  padding: 15px;
+  font-size:30px;
+}
+.btn_dec {
+  border-radius: 10px;
+  padding: 20px;
+}
+.btn_dec:hover{
+  color: #0ba8d8;
+}
+footer{
+  position: fixed;
+  display: block;
+  background-color: black;
+}
+.main-footer .container p{
+  display: flex;
+}
